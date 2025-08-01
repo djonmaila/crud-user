@@ -26,9 +26,9 @@ public class UserServiceImpl implements UserService {
         }
         if (i<users.size()){
             return users.get(i);
+        }else{
+            return null;
         }
-
-        return null;
     }
 
     @Override
