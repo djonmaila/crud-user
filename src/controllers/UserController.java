@@ -75,7 +75,7 @@ public class UserController {
         String email = scanner.nextLine();
         System.out.println("Entrer le numero de telephone du User");
         String phoneNumber = scanner.nextLine();
-
+        System.out.println();
         userService.createUser(new User(id,firstName,lastName,email,phoneNumber));
         System.out.println("user enregistrer avec succes");
     }
