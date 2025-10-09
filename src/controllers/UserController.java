@@ -64,7 +64,7 @@ public class UserController {
         System.out.println();
         System.out.println("********* Ajout d'un User *********");
         System.out.println();
-        System.out.println("Entrer l'id du User");
+        System.out.println("Entrer l'id du User ");
         Long id = scanner.nextLong();
         scanner.nextLine();
         System.out.println("Entrer le nom du User");
