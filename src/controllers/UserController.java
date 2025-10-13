@@ -67,7 +67,7 @@ public class UserController {
         System.out.println("Entrer l'id du User ");
         Long id = scanner.nextLong();
         scanner.nextLine();
-        System.out.println("Entrer le nom du User");
+        System.out.println("Entrer le nom du User ");
         String firstName = scanner.nextLine();
         System.out.println("Entrer le prenom du User");
         String lastName = scanner.nextLine();
